@@ -1,0 +1,109 @@
+@import "variables";
+@import "reset";
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: (100% / 12) * $i ;
+    }
+}
+
+header{
+    .img-fluid{
+        width: 46px;
+        height: 46px;
+        border-radius: 15%;
+        overflow: hidden;
+        margin-top: -6px;
+    }
+
+
+
+    nav{
+        background-color: $primary-color;
+        display: flex;
+        // justify-content: space-between;
+        padding: 7px;
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            li{
+                margin: 0 10px;
+                padding-top: 10px;
+                
+                a{
+                    color: $tertiary-color;
+                    text-decoration: none;
+
+                   &:hover{
+                    color: $secondary-color;
+                    transition: 0.5s;
+                   }
+                }
+            }
+        }
+
+        .icons{
+            display: flex;
+            padding-left: 60%;
+        }
+    }
+}
+
+.active{
+    color: $secondary-color;
+}
+
+.img-icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+
+main{
+    aside{
+        width: 25%;
+        padding: 5px;
+        margin:15px 0 15px 0;
+        float: left;
+        font-style: italic;
+        background-color: lightgray;
+       
+            .myface{
+                display: flex;
+                flex-direction: column;
+                padding: 5%;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+            }
+
+        }
+
+    }
+    
+
+.skillset{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+.skillbubble{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid $secondary-color;
+    padding: 10px 10px;
+    width: 60px;
+    margin: 2px;
+
+
+}
