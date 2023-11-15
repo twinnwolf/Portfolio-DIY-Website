@@ -98,7 +98,7 @@ header nav .icons {
   margin-top: -6px;
 }
 
-main aside {
+main section {
   width: 25%;
   padding: 5px;
   margin: 15px 0 15px 0;
@@ -106,12 +106,12 @@ main aside {
   font-style: italic;
   background-color: lightgray;
 }
-main aside .myface {
+main section .myface {
   display: flex;
   flex-direction: column;
   padding: 5%;
 }
-main aside .myface img {
+main section .myface img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -128,9 +128,15 @@ main aside .myface img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-radius: 8px;
-  border: 2px solid #A456B9;
   padding: 10px 10px;
   width: 60px;
   margin: 2px;
+}
+
+.socials {
+  display: flex;
+}
+
+.main-content {
+  background-color: #2B2B2B;
 }/*# sourceMappingURL=style.css.map */

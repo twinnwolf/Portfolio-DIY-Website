@@ -64,7 +64,7 @@ header{
 
 
 main{
-    aside{
+    section{
         width: 25%;
         padding: 5px;
         margin:15px 0 15px 0;
@@ -99,11 +99,15 @@ main{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8px;
-    border: 2px solid $secondary-color;
     padding: 10px 10px;
     width: 60px;
     margin: 2px;
+}
 
+.socials{ 
+    display: flex;
+}
 
+.main-content{
+    background-color: $primary-color;
 }
