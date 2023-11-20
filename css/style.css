@@ -64,6 +64,7 @@ header nav {
   background-color: #2B2B2B;
   display: flex;
   padding: 7px;
+  position: sticky;
 }
 header nav ul {
   list-style-type: none;
@@ -139,4 +140,26 @@ main section .myface img {
 
 .main-content {
   background-color: #2B2B2B;
+}
+
+main .img-aboutme {
+  width: 500px;
+  height: 300px;
+}
+
+.aboutme-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.aboutme-content ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.aboutme-content ul li {
+  flex-grow: 1;
 }/*# sourceMappingURL=style.css.map */
