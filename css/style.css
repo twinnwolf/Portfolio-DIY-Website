@@ -118,6 +118,7 @@ main section .myface {
   display: flex;
   flex-direction: column;
   padding: 5%;
+  align-items: center;
 }
 main section .myface img {
   width: 150px;
@@ -130,20 +131,35 @@ main section .myface img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 10px 0 10px 0;
 }
 
 .skillbubble {
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
-  padding: 10px 10px;
-  width: 60px;
-  margin: 2px;
 }
 
-.socials {
+.socials ul{
+  list-style-type: none;
   display: flex;
+  padding-top: 60px;
 }
+
+.socials ul li{
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.socials ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.socials ul li a:hover{
+  color: #A456B9;
+  transition: 0.5s;
+}
+
 
 #gallery {
   padding: 10px;
