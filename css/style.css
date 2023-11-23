@@ -104,7 +104,7 @@ header nav .icons {
   margin-top: -6px;
 }
 
-/* MAIN */
+/* INDEX MAIN */
 
 main section {
   width: 25%;
@@ -121,17 +121,17 @@ main section .myface {
   align-items: center;
 }
 main section .myface img {
-  width: 150px;
-  height: 150px;
+  width: 50%;
   border-radius: 50%;
   overflow: hidden;
+  
 }
 
 .skillset {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px 0 10px 0;
+  padding: 30px 0px 40px 0;
 }
 
 .skillbubble {
@@ -141,7 +141,7 @@ main section .myface img {
 .socials ul{
   list-style-type: none;
   display: flex;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .socials ul li{
@@ -160,6 +160,7 @@ main section .myface img {
   transition: 0.5s;
 }
 
+/* GALLERY FROM https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea  */
 
 #gallery {
   padding: 10px;
